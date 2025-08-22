@@ -1,0 +1,45 @@
+# # # # # # # # # # # # # # # # # # # # # #
+# Arquivo .gitignore para Projeto de Ciência de Dados com Python
+# # # # # # # # # # # # # # # # # # # # # #
+
+# Ignorar dados brutos e processados.
+data/raw/
+data/processed/
+
+# Ambientes Virtuais
+env/
+venv/
+.venv/
+.env/
+.conda/
+
+# Arquivos de Cache e Compilados do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# xArquivos de IDEs e Editores de Código
+.vscode/
+.idea/
+
+# Arquivos de Sistema Operacional
+.DS_Store
+Thumbs.db
+._*
+
+# Arquivos de Configuração de Ambiente
+.env
+*.env
+
+# Logs e Saídas de Execução
+*.log
+*.out
+
+# Pacotes e Distribuição Python
+build/
+dist/
+*.egg-info/
